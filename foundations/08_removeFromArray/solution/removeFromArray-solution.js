@@ -12,6 +12,7 @@ const removeFromArray = function (array, ...args) {
     if (!args.includes(item)) {
       newArray.push(item);
     }
+    
   });
   // and return that array
   return newArray;
